@@ -1,0 +1,159 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-07-15T22:23:58.512Z",
+    "end": "2019-07-15T22:24:09.576Z",
+    "duration": 11064,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "81569e80-f7fb-4e55-acd0-c9c5db3a8403",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0cb9a2b7-1415-4891-bc4d-cbcbbcf1c3b5",
+          "title": "Inspira QA",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Visitar Quem Somos",
+              "fullTitle": "Inspira QA Visitar Quem Somos",
+              "timedOut": null,
+              "duration": 2793,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => stepTest.call(this, step));\n}\nscenario.steps.forEach(step => stepTest.call(this, step));",
+              "err": {},
+              "uuid": "a714f79d-6c89-4614-b0ed-c5502a92e8c0",
+              "parentUUID": "0cb9a2b7-1415-4891-bc4d-cbcbbcf1c3b5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visitar Carrinho vazio",
+              "fullTitle": "Inspira QA Visitar Carrinho vazio",
+              "timedOut": null,
+              "duration": 1692,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => stepTest.call(this, step));\n}\nscenario.steps.forEach(step => stepTest.call(this, step));",
+              "err": {},
+              "uuid": "7a0384d5-47f5-4142-9cac-ebd729748e9e",
+              "parentUUID": "0cb9a2b7-1415-4891-bc4d-cbcbbcf1c3b5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visitar Minha Conta deslogado",
+              "fullTitle": "Inspira QA Visitar Minha Conta deslogado",
+              "timedOut": null,
+              "duration": 2250,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => stepTest.call(this, step));\n}\nscenario.steps.forEach(step => stepTest.call(this, step));",
+              "err": {},
+              "uuid": "8d832e8d-ce21-43c2-b214-70e06f56800b",
+              "parentUUID": "0cb9a2b7-1415-4891-bc4d-cbcbbcf1c3b5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visitar Fale Conosco",
+              "fullTitle": "Inspira QA Visitar Fale Conosco",
+              "timedOut": null,
+              "duration": 1138,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => stepTest.call(this, step));\n}\nscenario.steps.forEach(step => stepTest.call(this, step));",
+              "err": {},
+              "uuid": "b4cc2a9c-9661-4569-beb4-d26a8714ca2d",
+              "parentUUID": "0cb9a2b7-1415-4891-bc4d-cbcbbcf1c3b5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a714f79d-6c89-4614-b0ed-c5502a92e8c0",
+            "7a0384d5-47f5-4142-9cac-ebd729748e9e",
+            "8d832e8d-ce21-43c2-b214-70e06f56800b",
+            "b4cc2a9c-9661-4569-beb4-d26a8714ca2d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7873,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "useInlineDiffs": false
+      },
+      "version": "4.0.1"
+    },
+    "marge": {
+      "options": {
+        "overwrite": true,
+        "html": true,
+        "json": true
+      },
+      "version": "4.0.1"
+    }
+  }
+}
