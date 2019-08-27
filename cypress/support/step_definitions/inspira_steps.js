@@ -4,6 +4,8 @@ import * as quemSomosPage from '../page_objects/quemSomos_page';
 import * as carrinhoPage from '../page_objects/carrinho_page';
 import * as minhaContaPage from '../page_objects/minhaConta_page';
 import * as faleConoscoPage from '../page_objects/faleConosco_page';
+import * as hooks from '../hooks';
+
 
 /**
  * As linhas comentadas são exemplos de utilização sem a aplicação do Page Objects
@@ -22,6 +24,7 @@ Then(/^eu devo ver a tela com as informações sobre a página$/, () => {
   // cy.contains('h1', 'Quem Somos')
   //   .should('be.visible')
   quemSomosPage.validaPagina();
+  hooks.verificaSnapshot()
 });
 
 When(/^eu acessar o link do Carrinho$/, () => {
@@ -33,6 +36,7 @@ Then(/^eu devo ver a tela com a mensagem de carrinho vazio$/, () => {
   // cy.contains('h1', 'Não existem produtos no carrinho')
   //   .should('be.visible')
   carrinhoPage.verificaMensagemCarrinhoVazio();
+  hooks.verificaSnapshot()
 });
 
 When(/^eu acessar o link Minha Conta$/, () => {
@@ -45,6 +49,7 @@ Then(/^eu devo ver a tela solicitando a identificação$/, () => {
   //cy.contains('small', 'Faça o seu login ou crie uma conta').should('be.visible')
   minhaContaPage.verificaTitulo();
   minhaContaPage.verificaSolicitacaoLoginCadastro();
+  hooks.verificaSnapshot()
 });
 
 When(/^eu acessar o link Fale Conosco$/, () => {
@@ -57,4 +62,5 @@ Then(/^eu devo ver modal solicitando o preenchimento do formulário$/, () => {
   //cy.contains('*', 'Preencha o formulário abaixo.').should('be.visible')
   faleConoscoPage.verificaTitulo();
   faleConoscoPage.verificaSolicitaçãoPreenchimento();
+  hooks.verificaSnapshot()
 });

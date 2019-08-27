@@ -16,6 +16,17 @@
   // `config` is the reso*/
 
 const cucumber = require('cypress-cucumber-preprocessor').default
+const {
+  addMatchImageSnapshotPlugin,
+} = require('cypress-image-snapshot/plugin');
 module.exports = (on, config) => {
   on('file:preprocessor', cucumber())
+  addMatchImageSnapshotPlugin(on, config);
+  on('task', {
+    log(message) {
+      console.log("\x1b[34m", "\x1b[1m", "Log: " + message)
+      return null
+    }
+  })
 }
+

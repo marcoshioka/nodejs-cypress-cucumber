@@ -4,16 +4,30 @@
         "cypress:run": "cypress run"
     },
     "devDependencies": {
-        "cypress-cucumber-preprocessor": "^1.12.0",
+        "cucumber-html-reporter": "^5.0.0",
+        "cypress-cucumber-preprocessor": "^1.15.0",
+        "cypress-log-to-output": "^1.0.4",
+        "cypress-serenity-reporter": "^1.0.1",
         "cypress-xpath": "^1.4.0",
         "mocha": "^5.2.0",
-        "mochawesome": "^4.0.1",
+        "mochawesome": "^4.1.0",
         "mochawesome-merge": "^2.0.1",
-        "mochawesome-report-generator": "^4.0.1"
+        "mochawesome-report-generator": "^4.0.1",
+        "multiple-cucumber-html-reporter": "^1.12.1"
     },
     "dependencies": {
-        "cypress": "^3.4.0",
-        "cypress-multi-reporters": "^1.1.23",
+        "cypress": "^3.4.1",
+        "cypress-image-snapshot": "^3.1.1",
+        "cypress-multi-reporters": "^1.2.1",
+        "cypress-visual-regression": "^1.0.4",
         "mocha-junit-reporters": "^1.23.6"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": false,
+        "cucumberJson": {
+            "generate": true,
+            "html": true,
+            "outputFolder": "cypress/cucumber-json"
+        }
     }
 }
