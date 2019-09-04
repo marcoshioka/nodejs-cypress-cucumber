@@ -9,7 +9,7 @@ jobs:
       - restore_cache:
           keys:
             - cache-{{ checksum "package.json" }}
-      # install npm dependencies and Cypress binary
+      #  install npm dependencies and Cypress binary
       # if they were cached, this step is super quick
       - run:
           name: Install dependencies
