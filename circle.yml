@@ -30,7 +30,7 @@ jobs:
 
       - store_artifacts:
           path: /root/project/cypress/videos
-          path: /root/project/mochawesome-report/mochawesome.html
+                /root/project/mochawesome-report/mochawesome.html
 
 workflows:
   version: 2
