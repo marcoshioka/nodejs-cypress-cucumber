@@ -28,8 +28,13 @@ jobs:
       # - run: npm run e2e:record
       - run: npm run cy:run
 
+      - store_artifacts:
+          path: /cypress/videos
+
 workflows:
   version: 2
   build:
     jobs:
       - test
+
+      
