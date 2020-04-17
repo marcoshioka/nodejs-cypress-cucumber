@@ -1,0 +1,173 @@
+[
+  {
+    "description": "Como QA  \nQuero acessar a página da Inspira QA\nPara realizar alguns testes",
+    "keyword": "Funcionalidade",
+    "name": "Inspira QA",
+    "line": 3,
+    "id": "inspira-qa",
+    "tags": [],
+    "uri": "inspira.feature",
+    "elements": [
+      {
+        "id": "inspira-qa;visitar-quem-somos",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Visitar Quem Somos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 10,
+            "name": "que eu vá até a página da Inspira QA",
+            "result": {
+              "status": "passed",
+              "duration": 2131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 11,
+            "name": "eu acessar o link Quem Somos",
+            "result": {
+              "status": "passed",
+              "duration": 951000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 12,
+            "name": "eu devo ver a tela com as informações sobre a página",
+            "result": {
+              "status": "passed",
+              "duration": 673000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "inspira-qa;visitar-carrinho-vazio",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Visitar Carrinho vazio",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 15,
+            "name": "que eu vá até a página da Inspira QA",
+            "result": {
+              "status": "passed",
+              "duration": 2573000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 16,
+            "name": "eu acessar o link do Carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 1076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 17,
+            "name": "eu devo ver a tela com a mensagem de carrinho vazio",
+            "result": {
+              "status": "passed",
+              "duration": 891000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "inspira-qa;visitar-minha-conta-deslogado",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Visitar Minha Conta deslogado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "que eu vá até a página da Inspira QA",
+            "result": {
+              "status": "passed",
+              "duration": 1850000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "eu acessar o link Minha Conta",
+            "result": {
+              "status": "passed",
+              "duration": 1121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "eu devo ver a tela solicitando a identificação",
+            "result": {
+              "status": "passed",
+              "duration": 834000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "inspira-qa;visitar-fale-conosco",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Visitar Fale Conosco",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 25,
+            "name": "que eu vá até a página da Inspira QA",
+            "result": {
+              "status": "passed",
+              "duration": 1992000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 26,
+            "name": "eu acessar o link Fale Conosco",
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 27,
+            "name": "eu devo ver modal solicitando o preenchimento do formulário",
+            "result": {
+              "status": "passed",
+              "duration": 938000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

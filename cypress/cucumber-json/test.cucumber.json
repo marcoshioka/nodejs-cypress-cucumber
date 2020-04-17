@@ -1,0 +1,51 @@
+[
+  {
+    "description": "Como QA  \nQuero acessar a página da Inspira QA\nPara realizar alguns testes",
+    "keyword": "Funcionalidade",
+    "name": "Test",
+    "line": 3,
+    "id": "test",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "test;test",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 10,
+            "name": "que eu vá até a página da Test",
+            "result": {
+              "status": "undefined",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 11,
+            "name": "eu acessar o link Test",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 12,
+            "name": "eu devo ver a tela com as informações de Test",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

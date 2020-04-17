@@ -1,0 +1,161 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-04-17T18:00:13.009Z",
+    "end": "2020-04-17T18:00:31.702Z",
+    "duration": 18693,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5c246096-3033-4f73-8912-85e8d111e043",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "645dbe61-8f77-4538-b955-3ddc9475f99e",
+          "title": "Inspira QA",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Visitar Quem Somos",
+              "fullTitle": "Inspira QA Visitar Quem Somos",
+              "timedOut": null,
+              "duration": 3732,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[\n  \"snapshots/inspira.feature/Inspira QA -- Visitar Quem Somos.snap.png\",\n  \"17/4/2020-15:0:16hs - Automação: Teste ok\"\n]",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() => resolveAndRunBeforeHooks.call(this, scenario.tags))\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() => resolveAndRunAfterHooks.call(this, scenario.tags))\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "462e67ae-73a5-4bc8-a43e-c9f455884183",
+              "parentUUID": "645dbe61-8f77-4538-b955-3ddc9475f99e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visitar Carrinho vazio",
+              "fullTitle": "Inspira QA Visitar Carrinho vazio",
+              "timedOut": null,
+              "duration": 4525,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[\n  \"snapshots/inspira.feature/Inspira QA -- Visitar Carrinho vazio.snap.png\",\n  \"17/4/2020-15:0:16hs - Automação: Teste ok\",\n  \"17/4/2020-15:0:20hs - Automação: Teste ok\"\n]",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() => resolveAndRunBeforeHooks.call(this, scenario.tags))\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() => resolveAndRunAfterHooks.call(this, scenario.tags))\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c314e1ef-cda9-4933-990f-1aa483e80969",
+              "parentUUID": "645dbe61-8f77-4538-b955-3ddc9475f99e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visitar Minha Conta deslogado",
+              "fullTitle": "Inspira QA Visitar Minha Conta deslogado",
+              "timedOut": null,
+              "duration": 3784,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[\n  \"snapshots/inspira.feature/Inspira QA -- Visitar Minha Conta deslogado.snap.png\",\n  \"17/4/2020-15:0:16hs - Automação: Teste ok\",\n  \"17/4/2020-15:0:20hs - Automação: Teste ok\",\n  \"17/4/2020-15:0:24hs - Automação: Teste ok\"\n]",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() => resolveAndRunBeforeHooks.call(this, scenario.tags))\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() => resolveAndRunAfterHooks.call(this, scenario.tags))\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "44943ef6-aa86-43d1-ace4-8d214acf9ee2",
+              "parentUUID": "645dbe61-8f77-4538-b955-3ddc9475f99e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visitar Fale Conosco",
+              "fullTitle": "Inspira QA Visitar Fale Conosco",
+              "timedOut": null,
+              "duration": 3136,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[\n  \"snapshots/inspira.feature/Inspira QA -- Visitar Fale Conosco.snap.png\",\n  \"17/4/2020-15:0:16hs - Automação: Teste ok\",\n  \"17/4/2020-15:0:20hs - Automação: Teste ok\",\n  \"17/4/2020-15:0:24hs - Automação: Teste ok\",\n  \"17/4/2020-15:0:28hs - Automação: Teste ok\"\n]",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() => resolveAndRunBeforeHooks.call(this, scenario.tags))\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() => resolveAndRunAfterHooks.call(this, scenario.tags))\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "bfc5b25f-6c86-474a-8b2d-9c544f63ac22",
+              "parentUUID": "645dbe61-8f77-4538-b955-3ddc9475f99e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "462e67ae-73a5-4bc8-a43e-c9f455884183",
+            "c314e1ef-cda9-4933-990f-1aa483e80969",
+            "44943ef6-aa86-43d1-ace4-8d214acf9ee2",
+            "bfc5b25f-6c86-474a-8b2d-9c544f63ac22"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15177,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "5.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "4.0.1"
+    }
+  }
+}
